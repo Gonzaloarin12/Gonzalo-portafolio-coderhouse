@@ -1,0 +1,106 @@
+.contacto {
+    & .h2 {
+        font-size: 2.5rem;
+    }
+
+    .contenedordecontacto {
+        display: flex;
+        padding: 3rem;
+        margin: 0 auto;
+        justify-content: center;
+
+        & .img {
+            width: 750px;
+            height: 700px;
+            bottom: 0px;
+        }
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            margin-top: 2rem;
+
+            & .input {
+                padding: 10px 20px;
+                margin-bottom: 1rem;
+                background: none;
+                border-bottom: 1px solid rgb(0, 0, 0);
+                color: white;
+            }
+            & .tx {
+                height: 100px;
+                background: none;
+                color: white;
+                padding: 1rem;
+                border: 1px solid rgb(0, 0, 0);
+                margin-bottom: 1rem;
+            }
+
+            .boton-entregar {
+                padding:  10px 20px;
+                margin: 1rem;
+                text-transform: uppercase;
+                background-color: #c5e075;
+                border-radius: 10px;
+                cursor: pointer;
+                & .hover {
+                    background-color: aliceblue;
+                }
+            }
+        }
+    }
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color:rgb(31, 31, 31) ;
+    & .h2 {
+        font-size: 3rem;
+    }
+    & .h5 {
+        font-size: 1.5rem;
+    }
+
+    .redes-sociales {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+        margin-top: 1.5rem;
+        text-decoration: none;
+    }
+}
+
+.acercademi-info .titulosdepag {
+    color: #E1EDF0;
+}
+.titulo-portafolio h2 {
+    color: #E1EDF0;
+}
+
+.titulo-contacto {
+    padding: 2rem 10rem;
+    color: #E1EDF0;
+}
+.info-pricipal h1 {
+    color: #E1EDF0;
+}
+.contacto .titulo-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.d-item {
+    height: 1000px;
+
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}

@@ -1,0 +1,54 @@
+@media screen and (max-width: 1300px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: #000000;
+        z-index: 1;
+        transform: translate(-110%);
+        transition: all 0.8s ease-in-out;
+    }
+    .info-pricipal {
+        margin-top: 3rem;
+    }
+    .apretarboton {
+        transform: translateX(0%);
+        transition: all 0.8s ease-in-out;
+    }
+    .menu li {
+    margin: 2rem;
+    }
+    .menu-celular {
+        display: block;
+    }
+    .fa-bars, .fa-close{
+        font-size: 1.5rem;
+    }
+    .menu-celular .fa-close {
+        display: none;
+    }
+    .principal, .acercademi {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .principal img {
+        width: min(70%, 450px);
+        height: auto;
+        margin-top: 5rem    ;
+    }
+    .acercademi-info h2 {
+        margin: 2rem;
+    }
+    .pag1 {
+        width: 100vw;
+        height: 180vh;
+    }
+    .marcar {
+        padding: 5rem;
+    }
+    
+}
+

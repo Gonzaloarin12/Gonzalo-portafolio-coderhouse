@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif
+}
+
+.pag1 {
+    width: 100vw;
+    height: 100%;
+    background-color: #323944;
+    color: #548461
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    font-size: 1.5rem;
+}                                                                                                                   
+
+.marcar {
+    color: #D8D191;
+    font-size: 2.5rem;
+}
+.marcar span {
+    color: #D8D191;
+    font-size: 3.5rem;
+}
+
+.menu {
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-around;
+    font-weight: bold;  
+}
+
+.menu-celular {
+    display: none;
+}
+
+.menu li {
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: #79805D;
+    padding: 10px 15px;
+}
+.menu a:hover {
+    background-color: #7b6f6f;
+    transition: 0.5s;
+}
+.main {
+    margin-top: 4rem;
+
+}
+
+.principal {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.principal img {
+    width: 400px;
+    border: solid #000000;
+
+}
+.info-pricipal h1 {
+font-size: clamp(3vw, 1.5rem, 3rem);
+}
+.modifp-p {
+    font-size: 1.5rem;
+    }
+
+.acercademi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+.acercademi img {
+    width: 500px;
+    height: auto ;
+    grid-column: 1/5;
+
+}
+
+.acercademi-info {
+    grid-column: 5/10;
+}
+
+.acercademi-info h2 {
+    font-size: 3rem;
+    color: #000000;
+}
+
+/* divisor */
+.divider { 
+    height: 6px;
+    width: 188px;
+    background-color: #D8D191;
+    margin: 10px;
+    margin-bottom: 3rem;
+}
+
+.acercademi-info p {
+    margin: 50px;
+}
+
+/* .fondo {
+    background-image: url();
+} */
+ .titulo-portafolio {
+ width: 100vw;
+ padding: 5rem;
+ }
+
+.titulo-portafolio h2 {
+font-size: 2.5rem;
+}
+
+.portafolio .envase {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.tarjeta {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(24, 26, 27);
+    margin: 2rem;
+}
+
+.tarjeta_img {
+    width: 100%;
+    height: 150px;
+    background-image:url(../Imagenes/images.jpeg) ;
+}
+.titulodetarjeta {
+    padding: 5px;
+}
+.titulodetarjeta p {
+    padding: 15px;
+}
+
+.links-proyecto {
+   display: flex;
+   justify-content: space-evenly; 
+   padding-top: 1rem;
+   font-size: 1.5rem;
+}
+
+.links-proyecto a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedordecontacto {
+    display: flex;
+    padding: 3rem;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+
+.contenedordecontacto img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+}
+.contacto h2 {
+    font-size: 2.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2rem;
+}
+.formulario input {
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    background: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: white;
+}
+
+.formulario .tx {
+    height: 100px;
+    background: none;
+    color: white;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+
+.boton-entregar {
+    padding:  10px 20px;
+    margin: 1rem;
+    text-transform: uppercase;
+    background-color: #c5e075;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton-entregar :hover {
+    background-color: aliceblue;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color:rgb(31, 31, 31) ;
+}
+.pie h2 {
+    font-size: 3rem;
+}
+
+.pie h5 {
+    font-size: 1.5rem;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
+.acercademi-info .titulosdepag {
+    color: #E1EDF0;
+}
+.titulo-portafolio h2 {
+    color: #E1EDF0;
+}
+
+.titulo-contacto {
+    padding: 2rem 10rem;
+    color: #E1EDF0;
+}
+.info-pricipal h1 {
+    color: #E1EDF0;
+}
+.contacto .titulo-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: #000000;
+        z-index: 1;
+        transform: translate(-110%);
+        transition: all 0.8s ease-in-out;
+    }
+    .info-pricipal {
+        margin-top: 3rem;
+    }
+    .apretarboton {
+        transform: translateX(0%);
+        transition: all 0.8s ease-in-out;
+    }
+    .menu li {
+    margin: 2rem;
+    }
+    .menu-celular {
+        display: block;
+    }
+    .fa-bars, .fa-close{
+        font-size: 1.5rem;
+    }
+    .menu-celular .fa-close {
+        display: none;
+    }
+    .principal, .acercademi {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .principal img {
+        width: min(70%, 450px);
+        height: auto;
+        margin-top: 5rem    ;
+    }
+    .acercademi-info h2 {
+        margin: 2rem;
+    }
+    .pag1 {
+        width: 100vw;
+        height: 180vh;
+    }
+    .marcar {
+        padding: 5rem;
+    }
+    
+}
+
+.d-item {
+    height: 1000px;
+
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.menu {
+	-webkit-animation: text-shadow-drop-center 2s infinite ;
+	        animation: text-shadow-drop-center 2s infinite ;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-8-7 19:57:27
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * @animation text-shadow-drop-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  .imganimacion1 {
+	-webkit-animation: shake-bl 3s 2s infinite ;
+	        animation: shake-bl 3s 2s infinite ;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-8-7 19:59:53
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-bl
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shake-bl {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+    }
+    10% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    80% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    90% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  @keyframes shake-bl {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+    }
+    10% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    80% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    90% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  
+  
+  
+  

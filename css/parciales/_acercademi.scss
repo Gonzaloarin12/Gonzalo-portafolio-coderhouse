@@ -1,0 +1,23 @@
+.acercademi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    .img {
+        width: 500px;
+        height: auto ;
+        grid-column: 1/5;
+    
+    }
+    
+    .acercademi-info {
+        grid-column: 5/10;
+        & .h2 {
+            font-size: 3rem;
+            color: #000000;
+        }
+        & .p {
+            margin: 50px;
+        }
+    }
+}

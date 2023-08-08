@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+
+    .pag1 {
+        width: 100vw;
+        background-color: #323944;
+        color: #548461 ;
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            font-size: 1.5rem;
+
+            .ul {
+                display: flex;
+                justify-content: space-between;
+                padding: 4rem;
+                font-size: 1.5rem;
+            }
+
+            .marcar {
+                color: #D8D191;
+                font-size: 2.5rem;
+
+                .span {
+                    color: #D8D191;
+                    font-size: 3.5rem;
+                }
+            }
+
+            .menu {
+                display: flex;
+                justify-content: space-around;
+                font-weight: bold;  
+
+                li {
+                    list-style: none;  
+                }
+
+                .a {
+                    text-decoration: none;
+                    color: #79805D;
+                    padding: 10px 15px;
+
+                    &:hover {
+                        background-color: #7b6f6f;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+            .menu-celular {
+                display: none;
+
+                @media (max-width: 768px) {
+                    display: flex;
+                    flex-direction: column;
+
+                    .a {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .main {
+        margin: 4rem;
+    }
+
+    .principal {
+        margin: 0 auto;
+        width: 80vw;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-items: center;
+
+        &.img {
+            width: 400px;
+            border: solid #000000;
+        }
+
+        .info-principal {
+            & .h1 {
+                font-size: clamp(3vw, 1.5rem, 3rem);
+            }
+            
+            & .modifp-p {
+                font-size: 1.5rem;
+            }
+
+            & .divider { 
+                height: 6px;
+                width: 188px;
+                background-color: #D8D191;
+                margin: 10px auto;
+                margin-bottom: 3rem;
+            }
+        }
+    }    
+}
