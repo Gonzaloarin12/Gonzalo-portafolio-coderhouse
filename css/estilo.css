@@ -92,12 +92,20 @@ font-size: clamp(3vw, 1.5rem, 3rem);
     width: 100vw;
     align-items: center;
 }
-.acercademi img {
+/* .acercademi img {
     width: 500px;
     height: auto ;
     grid-column: 1/5;
+    padding-left: 5rem;
+
+} */
+.acercademi img {
+    height: 50rem;
+    height: 30rem;
+    padding-left: 8rem;
 
 }
+
 
 .acercademi-info {
     grid-column: 5/10;
@@ -139,10 +147,11 @@ font-size: 2.5rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .tarjeta {
     width: 300px;
-    height: 400px;
+    height: 500px;
     background-color: rgb(24, 26, 27);
     margin: 2rem;
 }
@@ -236,10 +245,12 @@ font-size: 2.5rem;
 }
 .pie h2 {
     font-size: 3rem;
+    color: #548461;
 }
 
 .pie h5 {
     font-size: 1.5rem;
+    color: #548461;
 }
 .redes-sociales {
     display: flex;
@@ -314,10 +325,26 @@ font-size: 2.5rem;
     }
     .pag1 {
         width: 100vw;
-        height: 180vh;
+        height: 250vh;
     }
     .marcar {
         padding: 5rem;
+    }
+
+    .portafolio .envase {
+        width: 80vw;
+        height: 100%;
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .acercademi img {
+        display: none;
+        justify-content: center;
+        align-items: center;
+
     }
     
 }
@@ -451,6 +478,14 @@ font-size: 2.5rem;
     }
   }
   
+  .carousel-inner {
+    height: 80%;
+    padding: 1rem 10rem;
+  }
+  .carousel {
+    height: 500px;
+  }
+
   
   
   
